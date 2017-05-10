@@ -11,7 +11,11 @@ html,body {
 
 @media (min-width:768px) {
     h1 {
-        font-size:68px;
+        font-family: 'Lato';
+        font-size:100px;
+    }
+    h2 {
+        font-size:50px;
     }
 }
 
@@ -27,12 +31,25 @@ a:hover {
     border-radius:0;
 }
 
+.shadowed{
+    text-shadow: 0.05em 0.05em #333;
+}
+
 .btn-danger {
     background-color:#f44d3c;
 }
 
 .text-danger, a.text-danger {
     color:#f44d3c;
+}
+
+.text-blue-shadow, a.text-blue-shadow {
+    color:#075FFF;
+    text-shadow: 0.05em 0.05em #333;
+}
+
+.text-blue, a.text-blue {
+    color:#075B97;
 }
 
 .btn-huge {
@@ -45,7 +62,7 @@ a:hover {
 }
 
 .bitter {
-    font-family: 'Bitter', serif;
+    font-family: 'Lato', serif;
 }
 
 .icon-bar {
@@ -60,7 +77,8 @@ a:hover {
 
 .navbar-trans .navbar-brand, .navbar-trans >.container-fluid .navbar-brand {
     padding: 14px;
-    color:#075B97;
+    color:#075FFF;
+    text-shadow: 0.05em 0.05em #333;
 }
 
 .navbar-trans li>a:focus,.navbar-trans li.active {
@@ -143,7 +161,7 @@ section {
 #section1, #section3 {
 	background-color: rgba(0,0,0,0.7);
 	color:#fff;
-	font-family: 'Bitter', serif;
+	font-family: 'Lato', serif;
 }
   
 #section4 {
