@@ -39,6 +39,14 @@ a:hover {
     background-color:#f44d3c;
 }
 
+.text-large {
+    font-size:20px;
+}
+
+.thumbnail {
+    min-width: 400px;
+}
+
 .text-danger, a.text-danger {
     color:#f44d3c;
 }
