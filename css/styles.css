@@ -19,6 +19,10 @@ html,body {
     }
 }
 
+.media-fontup {
+    font-size:18px;
+}
+
 a {
     color:#999;
 }
